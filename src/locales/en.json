@@ -1,0 +1,160 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "search": "Search",
+    "share": "Share",
+    "back": "Back"
+  },
+  "app": {
+    "title": "Life's Journal",
+    "subtitle": "What happened on your birthday?",
+    "preparing": "Preparing..."
+  },
+  "home": {
+    "welcome": "Welcome",
+    "enterBirthDate": "Enter Your Birth Date",
+    "enterBirthDateSubtitle": "What day and month were you born?",
+    "timeMachine": "Time Machine",
+    "timeMachineSubtitle": "Which year would you like to explore?",
+    "chooseOption": "Choose an option",
+    "birthDateOption": "Birth Date",
+    "birthDateOptionDesc": "Discover events on your birth date",
+    "timeMachineOption": "Time Machine",
+    "timeMachineOptionDesc": "Explore events from any year",
+    "day": "Day",
+    "month": "Month",
+    "year": "Year",
+    "discover": "Discover",
+    "loadingEvents": "Loading historical events...",
+    "loadingSubtext": "fetching information for this date",
+    "loadingYearSubtext": "fetching information for this year",
+    "loadingTitle": "Loading Historical Events",
+    "loadingWait": "Please wait...",
+    "emptyState": "Enter your birth date to discover historical events",
+    "invalidDate": "Please enter a valid date.",
+    "invalidYear": "Please enter a valid year (1-2024).",
+    "missingDate": "Please enter your birth date (day/month).",
+    "missingYear": "Please enter a year.",
+    "loadingError": "An error occurred while loading historical events."
+  },
+  "categories": {
+    "title": "Which categories would you like to see?",
+    "selectMultiple": "Select the categories you want (you can choose multiple)",
+    "events": "Events",
+    "eventsDesc": "Historical events and important developments",
+    "births": "Births",
+    "birthsDesc": "Birth dates of famous people",
+    "deaths": "Deaths",
+    "deathsDesc": "Death dates of important people",
+    "holidays": "Holidays",
+    "holidaysDesc": "Special days and celebrations",
+    "selected": "Selected",
+    "selectedDesc": "Featured special events",
+    "continue": "Continue",
+    "categoriesSelected": "categories selected",
+    "selectAtLeast": "Select at least one category"
+  },
+  "tabs": {
+    "events": "Events",
+    "births": "Births",
+    "deaths": "Deaths", 
+    "holidays": "Holidays",
+    "selected": "Selected"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "languageDescription": "Select your preferred language",
+    "darkMode": "Dark Mode",
+    "darkModeActive": "Dark theme active",
+    "lightModeActive": "Light theme active",
+    "notifications": "Notifications",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "privacyDescription": "Data security and privacy information",
+    "rateApp": "Rate App",
+    "rateAppDescription": "Rate us on the app store",
+    "version": "Version",
+    "appearance": "Appearance",
+    "privacySecurity": "Privacy & Security",
+    "supportFeedback": "Support & Feedback",
+    "dataSource": "Data Source",
+    "dataSourceDescription": "Wikipedia (Creative Commons)",
+    "ok": "OK",
+    "error": "Error",
+    "storeError": "An error occurred while opening the store. Please try again later."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "\"Life's Journal\" app allows you to discover historical events associated with your birth date. This privacy policy explains how our app works and how your personal data is processed.",
+    "guarantees": {
+      "title": "Privacy Guarantees",
+      "localProcessing": "Local Processing:",
+      "localProcessingDesc": "All data is processed on your device",
+      "noThirdParty": "No Third Parties:",
+      "noThirdPartyDesc": "Your data is not shared with third parties",
+      "noAds": "No Ads:",
+      "noAdsDesc": "No ads that collect personal data",
+      "noAnalytics": "No Analytics:",
+      "noAnalyticsDesc": "Your usage data is not tracked"
+    },
+    "dataStorage": {
+      "title": "Data Storage",
+      "temporary": "Temporary Storage:",
+      "temporaryDesc": "Birth date is only kept in memory while app is open",
+      "noPermanent": "No Permanent Storage:",
+      "noPermanentDesc": "No data is stored permanently",
+      "appClose": "When App Closes:",
+      "appCloseDesc": "All data is automatically deleted"
+    },
+    "thirdParty": {
+      "title": "Third Party Services",
+      "wikipediaApi": "Wikipedia API",
+      "creativeCommons": "Creative Commons:",
+      "creativeCommonsDesc": "Public and free data is used",
+      "onlyDate": "Only Date to API:",
+      "onlyDateDesc": "Only day/month information is sent",
+      "noPersonalInfo": "No Personal Info:",
+      "noPersonalInfoDesc": "Your personal information is not sent to Wikipedia"
+    },
+    "collectedInfo": {
+      "title": "Information We Collect",
+      "collected": "Collected Information:",
+      "birthDate": "Birth Date:",
+      "birthDateDesc": "Your birth date required to display historical events",
+      "notCollected": "Information We Don't Collect:",
+      "name": "Your name, surname or identity information",
+      "email": "Your email address",
+      "phone": "Your phone number",
+      "location": "Your location information",
+      "media": "Your photos or media files",
+      "contacts": "Your contact list"
+    },
+    "usage": {
+      "title": "Use of Information",
+      "description": "The information we collect is used only for the following purposes:",
+      "fetchEvents": "Fetch historical events for your birth date from Wikipedia API",
+      "functionality": "Provide app functionality",
+      "improvement": "Improve user experience"
+    },
+    "important": {
+      "title": "IMPORTANT",
+      "description": "Your birth date is stored locally on your device only and is never sent to our servers."
+    },
+    "footer": {
+      "lastUpdate": "Last Updated:",
+      "version": "Life's Journal v1.0.0"
+    }
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français"
+  }
+} 
