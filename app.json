@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Hayatın Güncesi",
+    "slug": "hayatin-guncesi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "sdkVersion": "53.0.0",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#64B5F6"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#64B5F6"
+      }
+    }
+  }
+} 
