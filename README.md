@@ -13,6 +13,7 @@ Doğum tarihinizle ilişkilendirilmiş tarihi olayları keşfedin veya Time Mach
 - **Google Play Store:** *Yakında yayınlanacak*
 - **Direct APK:** [AAB Dosyası İndir](https://expo.dev/artifacts/eas/pLmyndEFV15iMLrzpDanQ2.aab)
 - **Build Details:** [EAS Build](https://expo.dev/accounts/wupani1234/projects/hayatin-guncesi/builds/c073959b-08c3-4245-b3da-5d279324d5ad)
+- **Privacy Policy:** [Gizlilik Politikası](https://YOUR_USERNAME.github.io/hayatin-guncesi/privacy-policy.html)
 
 ### 🍎 iOS
 - **App Store:** *Geliştirme aşamasında*
@@ -253,6 +254,7 @@ https://{lang}.wikipedia.org/api/rest_v1/feed/onthisday/all/{MM}/{DD}
 - ✅ Wikipedia verileri Creative Commons lisansı altında
 - ✅ Açık kaynak kod - tam şeffaflık
 - ✅ GDPR uyumlu
+- 📄 **Detaylı Gizlilik Politikası:** [privacy-policy.html](https://YOUR_USERNAME.github.io/hayatin-guncesi/privacy-policy.html)
 
 ### 🔐 Güvenlik Önlemleri
 - API timeout koruması
