@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hayatın Güncesi - Gizlilik Politikası</title>
-    <meta name="description" content="Hayatın Güncesi uygulaması gizlilik politikası. Google Play Store için resmi gizlilik koşulları.">
+    <title>Gizlilik Politikası - Hayatın Güncesi</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.6;
             color: #333;
             max-width: 800px;
@@ -19,54 +18,42 @@
             background: white;
             padding: 40px;
             border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         h1 {
             color: #007AFF;
             text-align: center;
             margin-bottom: 10px;
-            font-size: 2.2rem;
+            font-size: 2.5em;
         }
         .subtitle {
             text-align: center;
             color: #666;
-            margin-bottom: 30px;
-            font-size: 1.1rem;
-        }
-        .app-info {
-            background-color: #e3f2fd;
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 30px;
-            text-align: center;
+            margin-bottom: 40px;
+            font-size: 1.1em;
         }
         h2 {
-            color: #333;
+            color: #007AFF;
             border-bottom: 2px solid #007AFF;
             padding-bottom: 5px;
             margin-top: 30px;
-            font-size: 1.4rem;
+        }
+        h3 {
+            color: #FF6B35;
+            margin-top: 25px;
         }
         .highlight {
-            background-color: #e3f2fd;
+            background-color: #e8f4fd;
             padding: 15px;
             border-left: 4px solid #007AFF;
             margin: 20px 0;
             border-radius: 4px;
         }
-        .guarantee {
-            background-color: #e8f5e8;
-            padding: 15px;
-            border-left: 4px solid #4CAF50;
+        .contact-info {
+            background-color: #f0f8ff;
+            padding: 20px;
+            border-radius: 8px;
             margin: 20px 0;
-            border-radius: 4px;
-        }
-        .warning {
-            background-color: #fff3e0;
-            padding: 15px;
-            border-left: 4px solid #ff9800;
-            margin: 20px 0;
-            border-radius: 4px;
         }
         ul {
             padding-left: 20px;
@@ -74,189 +61,475 @@
         li {
             margin-bottom: 8px;
         }
-        .contact {
-            background-color: #f5f5f5;
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 30px;
-        }
         .footer {
             text-align: center;
             margin-top: 40px;
             padding-top: 20px;
             border-top: 1px solid #eee;
             color: #666;
-            font-size: 14px;
         }
-        .section {
-            margin-bottom: 25px;
+        .language-switch {
+            text-align: center;
+            margin-bottom: 20px;
         }
-        strong {
-            color: #333;
+        .language-switch a {
+            color: #007AFF;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border: 1px solid #007AFF;
+            border-radius: 4px;
         }
-        @media (max-width: 600px) {
-            .container {
-                padding: 20px;
-            }
-            h1 {
-                font-size: 1.8rem;
-            }
+        .language-switch a:hover {
+            background-color: #007AFF;
+            color: white;
+        }
+        .effective-date {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🛡️ Hayatın Güncesi</h1>
-        <p class="subtitle">Gizlilik Politikası</p>
-
-        <div class="app-info">
-            <strong>📅 Hayatın Güncesi</strong><br>
-            Doğum tarihinizle ilişkili tarihi olayları keşfedin<br>
-            <em>Google Play Store için Resmi Gizlilik Politikası</em>
+        <div class="language-switch">
+            <a href="#tr" onclick="showLanguage('tr')">🇹🇷 Türkçe</a>
+            <a href="#en" onclick="showLanguage('en')">🇺🇸 English</a>
+            <a href="#de" onclick="showLanguage('de')">🇩🇪 Deutsch</a>
+            <a href="#fr" onclick="showLanguage('fr')">🇫🇷 Français</a>
         </div>
 
-        <div class="highlight">
-            <strong>🔒 Önemli:</strong> Hayatın Güncesi uygulaması gizliliğinizi korur ve kişisel verilerinizi güvende tutar. Hiçbir kişisel veri toplanmaz, işlenmez veya sunucuya gönderilmez.
-        </div>
+        <!-- TÜRKÇE -->
+        <div id="tr" class="language-content">
+            <h1>🗓️ Hayatın Güncesi</h1>
+            <p class="subtitle">Gizlilik Politikası</p>
+            <p class="effective-date">Son Güncelleme: 15 Haziran 2025</p>
 
-        <div class="section">
-            <h2>📊 Toplanan Veriler</h2>
-            <p>Hayatın Güncesi uygulaması <strong>"sıfır veri toplama"</strong> prensibiyle çalışır:</p>
+            <div class="highlight">
+                <strong>Önemli Not:</strong> Hayatın Güncesi uygulaması, kullanıcı gizliliğini korumayı en üst öncelik olarak benimser. Hiçbir kişisel veri toplanmaz, saklanmaz veya üçüncü taraflarla paylaşılmaz.
+            </div>
+
+            <h2>1. Genel Bilgiler</h2>
+            <p>Bu gizlilik politikası, "Hayatın Güncesi" (Life's Journal) mobil uygulamasının nasıl çalıştığını ve kullanıcı verilerini nasıl işlediğini açıklar.</p>
+
+            <h3>Uygulama Bilgileri:</h3>
             <ul>
-                <li><strong>Doğum Tarihi (Gün/Ay):</strong> Sadece yerel olarak, tarihi olayları filtrelemek için kullanılır</li>
-                <li><strong>Hiçbir Kişisel Bilgi:</strong> İsim, yaş, konum, telefon numarası, email adresi toplanmaz</li>
-                <li><strong>Hiçbir Kimlik Bilgisi:</strong> Kullanıcı hesabı, kayıt sistemi veya giriş yoktur</li>
-                <li><strong>Hiçbir Cihaz Bilgisi:</strong> IMEI, MAC adresi, cihaz ID'si toplanmaz</li>
-                <li><strong>Hiçbir Kullanım Verisi:</strong> Hangi olayları görüntülediğiniz takip edilmez</li>
+                <li><strong>Uygulama Adı:</strong> Hayatın Güncesi (Life's Journal)</li>
+                <li><strong>Geliştirici:</strong> @wupani1234</li>
+                <li><strong>Platform:</strong> Android & iOS</li>
+                <li><strong>Kategori:</strong> Eğitim & Tarih</li>
             </ul>
+
+            <h2>2. Veri Toplama ve Kullanım</h2>
+            
+            <h3>2.1 Toplanan Veriler</h3>
+            <div class="highlight">
+                <strong>ÖNEMLİ:</strong> Uygulamamız HİÇBİR kişisel veri toplamaz!
+            </div>
+            
+            <p>Hayatın Güncesi uygulaması:</p>
+            <ul>
+                <li>❌ Kişisel bilgilerinizi toplamaz</li>
+                <li>❌ Doğum tarihinizi sunucuya göndermez</li>
+                <li>❌ Konum bilginizi almaz</li>
+                <li>❌ Kişi listesine erişmez</li>
+                <li>❌ Kamera veya mikrofon kullanmaz</li>
+                <li>❌ Sosyal medya hesaplarınıza erişmez</li>
+            </ul>
+
+            <h3>2.2 Yerel Veri Kullanımı</h3>
+            <p>Uygulama sadece şu verileri cihazınızda yerel olarak kullanır:</p>
+            <ul>
+                <li>✅ Girdiğiniz doğum tarihi (sadece arama için)</li>
+                <li>✅ Seçtiğiniz dil tercihi</li>
+                <li>✅ Uygulama ayarları</li>
+            </ul>
+            <p><strong>Bu veriler hiçbir zaman cihazınızdan çıkmaz!</strong></p>
+
+            <h2>3. İnternet Bağlantısı ve API Kullanımı</h2>
+            
+            <h3>3.1 Wikipedia API</h3>
+            <p>Uygulama, tarihi bilgileri almak için sadece Wikipedia'nın resmi API'sini kullanır:</p>
+            <ul>
+                <li>🌐 <code>https://tr.wikipedia.org/api/rest_v1/</code></li>
+                <li>🌐 <code>https://en.wikipedia.org/api/rest_v1/</code></li>
+                <li>🌐 <code>https://de.wikipedia.org/api/rest_v1/</code></li>
+                <li>🌐 <code>https://fr.wikipedia.org/api/rest_v1/</code></li>
+            </ul>
+
+            <h3>3.2 API'ye Gönderilen Veriler</h3>
+            <p>Wikipedia API'sine sadece şu bilgiler gönderilir:</p>
+            <ul>
+                <li>📅 Arama yapılan tarih (ay/gün formatında)</li>
+                <li>🌍 Seçilen dil kodu</li>
+                <li>🔧 Standart HTTP başlıkları (User-Agent)</li>
+            </ul>
+            <p><strong>Doğum tarihiniz veya kişisel bilgileriniz asla gönderilmez!</strong></p>
+
+            <h2>4. Üçüncü Taraf Hizmetler</h2>
+            
+            <h3>4.1 Wikipedia</h3>
+            <ul>
+                <li>📚 Sadece tarihi bilgi almak için kullanılır</li>
+                <li>🔒 Wikipedia'nın kendi gizlilik politikası geçerlidir</li>
+                <li>📖 Tüm veriler Creative Commons lisansı altındadır</li>
+            </ul>
+
+            <h3>4.2 Reklam ve Analitik</h3>
+            <div class="highlight">
+                <strong>Uygulamamızda:</strong>
+                <ul>
+                    <li>❌ Reklam yok</li>
+                    <li>❌ Analitik takip yok</li>
+                    <li>❌ Çerez kullanımı yok</li>
+                    <li>❌ Sosyal medya takibi yok</li>
+                </ul>
+            </div>
+
+            <h2>5. Veri Güvenliği</h2>
+            
+            <h3>5.1 Güvenlik Önlemleri</h3>
+            <ul>
+                <li>🔐 Tüm API çağrıları HTTPS ile şifrelenir</li>
+                <li>⏱️ API timeout koruması (2 saniye)</li>
+                <li>🛡️ Input validation ve sanitization</li>
+                <li>🚫 Üçüncü taraf tracking yok</li>
+            </ul>
+
+            <h3>5.2 Veri Saklama</h3>
+            <p>Uygulama:</p>
+            <ul>
+                <li>💾 Sadece cihazınızda yerel ayarları saklar</li>
+                <li>🗑️ Uygulama silindiğinde tüm veriler temizlenir</li>
+                <li>☁️ Hiçbir veri bulutta saklanmaz</li>
+            </ul>
+
+            <h2>6. Kullanıcı Hakları</h2>
+            
+            <h3>6.1 GDPR Uyumluluğu</h3>
+            <p>Avrupa Birliği vatandaşları için:</p>
+            <ul>
+                <li>✅ Veri toplama yok = Silme hakkı gereksiz</li>
+                <li>✅ Veri işleme yok = Düzeltme hakkı gereksiz</li>
+                <li>✅ Veri paylaşma yok = Taşınabilirlik gereksiz</li>
+                <li>✅ Tam şeffaflık = Bu politika ile sağlanır</li>
+            </ul>
+
+            <h3>6.2 Çocukların Gizliliği</h3>
+            <ul>
+                <li>👶 13 yaş altı çocuklar güvenle kullanabilir</li>
+                <li>🔒 No risk as no personal data is collected</li>
+                <li>👨‍👩‍👧‍👦 Ebeveyn onayı gerektirmez</li>
+            </ul>
+
+            <h2>7. Paylaşım Özelliği</h2>
+            <p>Uygulamanın paylaşım özelliği:</p>
+            <ul>
+                <li>📱 Sadece cihazınızın yerel paylaşım menüsünü kullanır</li>
+                <li>📝 Sadece seçtiğiniz tarihi bilgiyi paylaşır</li>
+                <li>🚫 Does not share your personal information</li>
+                <li>✋ Is completely under your control</li>
+            </ul>
+
+            <h2>8. Değişiklikler</h2>
+            <p>Bu gizlilik politikası:</p>
+            <ul>
+                <li>📅 Son güncelleme: 15 Haziran 2025</li>
+                <li>🔄 Değişiklikler bu sayfada yayınlanır</li>
+                <li>📧 Önemli değişiklikler için bildirim yapılmaz (veri toplama olmadığı için)</li>
+            </ul>
+
+            <h2>9. İletişim</h2>
+            <div class="contact-info">
+                <h3>Sorularınız için:</h3>
+                <ul>
+                    <li>🐙 <strong>GitHub:</strong> @wupani1234</li>
+                    <li>📱 <strong>App:</strong> Settings > Contact</li>
+                    <li>🌐 <strong>Proje:</strong> <a href="https://expo.dev/accounts/wupani1234/projects/hayatin-guncesi">EAS Project</a></li>
+                </ul>
+            </div>
+
+            <div class="highlight">
+                <strong>Özet:</strong> Hayatın Güncesi, gizliliğinizi %100 korur. Hiçbir kişisel veri toplamaz, saklamaz veya paylaşmaz. Sadece Wikipedia'dan tarihi bilgileri alır ve size sunar. Tamamen güvenli ve şeffaf bir uygulamadır.
+            </div>
         </div>
 
-        <div class="section">
-            <h2>🔐 Veri Güvenliği ve Gizlilik Garantileri</h2>
-            <div class="guarantee">
-                <strong>✅ Gizlilik Garantilerimiz:</strong>
+        <!-- ENGLISH -->
+        <div id="en" class="language-content" style="display: none;">
+            <h1>🗓️ Life's Journal</h1>
+            <p class="subtitle">Privacy Policy</p>
+            <p class="effective-date">Last Updated: June 15, 2025</p>
+
+            <div class="highlight">
+                <strong>Important Note:</strong> Life's Journal app prioritizes user privacy above all else. No personal data is collected, stored, or shared with third parties.
+            </div>
+
+            <h2>1. General Information</h2>
+            <p>This privacy policy explains how the "Life's Journal" mobile application works and how it handles user data.</p>
+
+            <h3>App Information:</h3>
+            <ul>
+                <li><strong>App Name:</strong> Life's Journal (Hayatın Güncesi)</li>
+                <li><strong>Developer:</strong> @wupani1234</li>
+                <li><strong>Platform:</strong> Android & iOS</li>
+                <li><strong>Category:</strong> Education & History</li>
+            </ul>
+
+            <h2>2. Data Collection and Usage</h2>
+            
+            <h3>2.1 Data Collected</h3>
+            <div class="highlight">
+                <strong>IMPORTANT:</strong> Our app collects NO personal data!
+            </div>
+            
+            <p>Life's Journal app:</p>
+            <ul>
+                <li>❌ Does not collect personal information</li>
+                <li>❌ Does not send your birth date to servers</li>
+                <li>❌ Does not access location</li>
+                <li>❌ Does not access contacts</li>
+                <li>❌ Does not use camera or microphone</li>
+                <li>❌ Does not access social media accounts</li>
+            </ul>
+
+            <h3>2.2 Local Data Usage</h3>
+            <p>The app only uses the following data locally on your device:</p>
+            <ul>
+                <li>✅ Your entered birth date (for search only)</li>
+                <li>✅ Your selected language preference</li>
+                <li>✅ App settings</li>
+            </ul>
+            <p><strong>This data never leaves your device!</strong></p>
+
+            <h2>3. Internet Connection and API Usage</h2>
+            
+            <h3>3.1 Wikipedia API</h3>
+            <p>The app only uses Wikipedia's official API to fetch historical information:</p>
+            <ul>
+                <li>🌐 <code>https://en.wikipedia.org/api/rest_v1/</code></li>
+                <li>🌐 <code>https://tr.wikipedia.org/api/rest_v1/</code></li>
+                <li>🌐 <code>https://de.wikipedia.org/api/rest_v1/</code></li>
+                <li>🌐 <code>https://fr.wikipedia.org/api/rest_v1/</code></li>
+            </ul>
+
+            <h3>3.2 Data Sent to API</h3>
+            <p>Only the following information is sent to Wikipedia API:</p>
+            <ul>
+                <li>📅 Search date (month/day format)</li>
+                <li>🌍 Selected language code</li>
+                <li>🔧 Standard HTTP headers (User-Agent)</li>
+            </ul>
+            <p><strong>Your birth date or personal information is never sent!</strong></p>
+
+            <h2>4. Third-Party Services</h2>
+            
+            <h3>4.1 Wikipedia</h3>
+            <ul>
+                <li>📚 Used only for fetching historical information</li>
+                <li>🔒 Wikipedia's own privacy policy applies</li>
+                <li>📖 All data is under Creative Commons license</li>
+            </ul>
+
+            <h3>4.2 Advertising and Analytics</h3>
+            <div class="highlight">
+                <strong>Our app has:</strong>
                 <ul>
-                    <li><strong>%100 Yerel İşlem:</strong> Tüm veriler sadece cihazınızda işlenir</li>
-                    <li><strong>Sunucuya Gönderim Yok:</strong> Hiçbir veri uzak sunuculara gönderilmez</li>
-                    <li><strong>Üçüncü Taraf Paylaşım Yok:</strong> Verileriniz hiçbir üçüncü tarafla paylaşılmaz</li>
-                    <li><strong>Reklam Takibi Yok:</strong> Kişisel veri toplayan reklamlar yoktur</li>
-                    <li><strong>Analitik Takip Yok:</strong> Google Analytics, Firebase gibi takip servisleri kullanılmaz</li>
-                    <li><strong>Çerez Kullanımı Yok:</strong> Web teknolojileri kullanılmadığı için çerez yoktur</li>
-                    <li><strong>Profil Oluşturma Yok:</strong> Kullanıcı profili veya davranış analizi yapılmaz</li>
+                    <li>❌ No advertisements</li>
+                    <li>❌ No analytics tracking</li>
+                    <li>❌ No cookie usage</li>
+                    <li>❌ No social media tracking</li>
+                </ul>
+            </div>
+
+            <h2>5. Data Security</h2>
+            
+            <h3>5.1 Security Measures</h3>
+            <ul>
+                <li>🔐 All API calls are encrypted with HTTPS</li>
+                <li>⏱️ API timeout protection (2 seconds)</li>
+                <li>🛡️ Input validation and sanitization</li>
+                <li>🚫 No third-party tracking</li>
+            </ul>
+
+            <h3>5.2 Data Storage</h3>
+            <p>The app:</p>
+            <ul>
+                <li>💾 Only stores local settings on your device</li>
+                <li>🗑️ All data is cleared when app is deleted</li>
+                <li>☁️ No data is stored in the cloud</li>
+            </ul>
+
+            <h2>6. User Rights</h2>
+            
+            <h3>6.1 GDPR Compliance</h3>
+            <p>For European Union citizens:</p>
+            <ul>
+                <li>✅ No data collection = No deletion right needed</li>
+                <li>✅ No data processing = No correction right needed</li>
+                <li>✅ No data sharing = No portability needed</li>
+                <li>✅ Full transparency = Provided by this policy</li>
+            </ul>
+
+            <h3>6.2 Children's Privacy</h3>
+            <ul>
+                <li>👶 Children under 13 can safely use the app</li>
+                <li>🔒 No risk as no personal data is collected</li>
+                <li>👨‍👩‍👧‍👦 No parental consent required</li>
+            </ul>
+
+            <h2>7. Sharing Feature</h2>
+            <p>The app's sharing feature:</p>
+            <ul>
+                <li>📱 Only uses your device's native sharing menu</li>
+                <li>📝 Only shares the historical information you select</li>
+                <li>🚫 Does not share your personal information</li>
+                <li>✋ Is completely under your control</li>
+            </ul>
+
+            <h2>8. Changes</h2>
+            <p>This privacy policy:</p>
+            <ul>
+                <li>📅 Last updated: June 15, 2025</li>
+                <li>🔄 Changes will be published on this page</li>
+                <li>📧 No notification for changes (as no data is collected)</li>
+            </ul>
+
+            <h2>9. Contact</h2>
+            <div class="contact-info">
+                <h3>For questions:</h3>
+                <ul>
+                    <li>🐙 <strong>GitHub:</strong> @wupani1234</li>
+                    <li>📱 <strong>App:</strong> Settings > Contact</li>
+                    <li>🌐 <strong>Project:</strong> <a href="https://expo.dev/accounts/wupani1234/projects/hayatin-guncesi">EAS Project</a></li>
+                </ul>
+            </div>
+
+            <div class="highlight">
+                <strong>Summary:</strong> Life's Journal protects your privacy 100%. It collects, stores, or shares no personal data. It only fetches historical information from Wikipedia and presents it to you. It's completely safe and transparent.
+            </div>
+        </div>
+
+        <!-- DEUTSCH -->
+        <div id="de" class="language-content" style="display: none;">
+            <h1>🗓️ Lebenstagebuch</h1>
+            <p class="subtitle">Datenschutzrichtlinie</p>
+            <p class="effective-date">Letzte Aktualisierung: 15. Juni 2025</p>
+
+            <div class="highlight">
+                <strong>Wichtiger Hinweis:</strong> Die Lebenstagebuch-App stellt den Schutz der Privatsphäre über alles andere. Es werden keine persönlichen Daten gesammelt, gespeichert oder mit Dritten geteilt.
+            </div>
+
+            <h2>1. Allgemeine Informationen</h2>
+            <p>Diese Datenschutzrichtlinie erklärt, wie die mobile Anwendung "Lebenstagebuch" funktioniert und wie sie mit Benutzerdaten umgeht.</p>
+
+            <h3>App-Informationen:</h3>
+            <ul>
+                <li><strong>App-Name:</strong> Lebenstagebuch (Hayatın Güncesi)</li>
+                <li><strong>Entwickler:</strong> @wupani1234</li>
+                <li><strong>Plattform:</strong> Android & iOS</li>
+                <li><strong>Kategorie:</strong> Bildung & Geschichte</li>
+            </ul>
+
+            <h2>2. Datensammlung und -verwendung</h2>
+            
+            <h3>2.1 Gesammelte Daten</h3>
+            <div class="highlight">
+                <strong>WICHTIG:</strong> Unsere App sammelt KEINE persönlichen Daten!
+            </div>
+            
+            <p>Die Lebenstagebuch-App:</p>
+            <ul>
+                <li>❌ Sammelt keine persönlichen Informationen</li>
+                <li>❌ Sendet Ihr Geburtsdatum nicht an Server</li>
+                <li>❌ Greift nicht auf den Standort zu</li>
+                <li>❌ Greift nicht auf Kontakte zu</li>
+                <li>❌ Verwendet keine Kamera oder Mikrofon</li>
+                <li>❌ Greift nicht auf Social-Media-Konten zu</li>
+            </ul>
+
+            <h2>3. Internetverbindung und API-Nutzung</h2>
+            
+            <h3>3.1 Wikipedia API</h3>
+            <p>Die App verwendet nur Wikipedias offizielle API, um historische Informationen abzurufen.</p>
+
+            <h2>4. Kontakt</h2>
+            <div class="contact-info">
+                <h3>Für Fragen:</h3>
+                <ul>
+                    <li>🐙 <strong>GitHub:</strong> @wupani1234</li>
+                    <li>📱 <strong>App:</strong> Einstellungen > Kontakt</li>
                 </ul>
             </div>
         </div>
 
-        <div class="section">
-            <h2>🌐 Veri Kaynağı</h2>
-            <p>Uygulama, tarihi bilgileri sadece aşağıdaki halka açık kaynaklardan çeker:</p>
-            <ul>
-                <li><strong>Wikipedia API:</strong> Halka açık Wikipedia veritabanı (en.wikipedia.org)</li>
-                <li><strong>Creative Commons Lisansı:</strong> Tüm içerik Creative Commons altındadır</li>
-                <li><strong>Açık Kaynak Veriler:</strong> Ücretsiz ve halka açık bilgiler</li>
-                <li><strong>Wikimedia Commons:</strong> Görseller için halka açık medya arşivi</li>
-            </ul>
-            <div class="warning">
-                <strong>⚠️ Not:</strong> Wikipedia API'sine yapılan istekler sadece tarihi bilgi almak içindir ve hiçbir kişisel veri içermez.
+        <!-- FRANÇAIS -->
+        <div id="fr" class="language-content" style="display: none;">
+            <h1>🗓️ Journal de Vie</h1>
+            <p class="subtitle">Politique de Confidentialité</p>
+            <p class="effective-date">Dernière mise à jour: 15 juin 2025</p>
+
+            <div class="highlight">
+                <strong>Note importante:</strong> L'application Journal de Vie place la protection de la vie privée au-dessus de tout. Aucune donnée personnelle n'est collectée, stockée ou partagée avec des tiers.
             </div>
-        </div>
 
-        <div class="section">
-            <h2>💾 Veri Saklama</h2>
-            <p>Veri saklama politikamız tam şeffaflık ilkesine dayanır:</p>
-            <ul>
-                <li><strong>Geçici RAM Kullanımı:</strong> Doğum tarihi sadece uygulama açıkken geçici bellekte tutulur</li>
-                <li><strong>Kalıcı Depolama Yok:</strong> Hiçbir veri cihazda kalıcı olarak saklanmaz</li>
-                <li><strong>Otomatik Silme:</strong> Uygulama kapandığında tüm veriler otomatik silinir</li>
-                <li><strong>Önbellek Yok:</strong> Arama geçmişi, önbellek veya log dosyası tutulmaz</li>
-                <li><strong>Veritabanı Yok:</strong> Yerel veya uzak veritabanı kullanılmaz</li>
-            </ul>
-        </div>
+            <h2>1. Informations Générales</h2>
+            <p>Cette politique de confidentialité explique comment l'application mobile "Journal de Vie" fonctionne et comment elle traite les données des utilisateurs.</p>
 
-        <div class="section">
-            <h2>📱 Uygulama İzinleri</h2>
-            <p>Uygulama minimal izin talep eder ve hiçbir hassas izin kullanmaz:</p>
+            <h3>Informations sur l'application:</h3>
             <ul>
-                <li><strong>İnternet Erişimi:</strong> Sadece Wikipedia API'sine bağlanmak için (INTERNET permission)</li>
-                <li><strong>Ağ Durumu:</strong> İnternet bağlantısını kontrol etmek için (ACCESS_NETWORK_STATE)</li>
+                <li><strong>Nom de l'app:</strong> Journal de Vie (Hayatın Güncesi)</li>
+                <li><strong>Développeur:</strong> @wupani1234</li>
+                <li><strong>Plateforme:</strong> Android & iOS</li>
+                <li><strong>Catégorie:</strong> Éducation & Histoire</li>
             </ul>
-            <div class="guarantee">
-                <strong>🚫 Talep Edilmeyen İzinler:</strong>
+
+            <h2>2. Collecte et Utilisation des Données</h2>
+            
+            <h3>2.1 Données Collectées</h3>
+            <div class="highlight">
+                <strong>IMPORTANT:</strong> Notre application ne collecte AUCUNE donnée personnelle!
+            </div>
+
+            <h2>3. Contact</h2>
+            <div class="contact-info">
+                <h3>Pour les questions:</h3>
                 <ul>
-                    <li>Kamera, Mikrofon, Konum</li>
-                    <li>Kişiler, Arama Kayıtları, SMS</li>
-                    <li>Depolama, Dosya Erişimi</li>
-                    <li>Cihaz ID'si, Telefon Durumu</li>
+                    <li>🐙 <strong>GitHub:</strong> @wupani1234</li>
+                    <li>📱 <strong>App:</strong> Paramètres > Contact</li>
                 </ul>
             </div>
-        </div>
-
-        <div class="section">
-            <h2>👶 Çocukların Gizliliği</h2>
-            <p>Uygulamamız çocuklar için güvenlidir:</p>
-            <ul>
-                <li><strong>13 Yaş Altı Güvenli:</strong> Hiçbir kişisel veri toplanmadığı için COPPA uyumludur</li>
-                <li><strong>Eğitici İçerik:</strong> Sadece tarihi bilgiler gösterilir</li>
-                <li><strong>Reklam Yok:</strong> Çocuklara yönelik reklam veya satın alma yoktur</li>
-                <li><strong>Dış Bağlantı Yok:</strong> Uygulamadan çıkan linkler yoktur</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>🔄 Güncelleme Politikası</h2>
-            <p>Bu gizlilik politikası gerektiğinde güncellenebilir:</p>
-            <ul>
-                <li><strong>Bildirim:</strong> Önemli değişiklikler uygulama içinde bildirilecektir</li>
-                <li><strong>Versiyon Takibi:</strong> Her güncelleme tarih ve versiyon ile işaretlenir</li>
-                <li><strong>Geriye Dönük Uyumluluk:</strong> Mevcut gizlilik garantileri korunur</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>⚖️ Yasal Uyumluluk</h2>
-            <p>Bu uygulama aşağıdaki düzenlemelere tam uyumludur:</p>
-            <ul>
-                <li><strong>KVKK (Türkiye):</strong> Kişisel Verilerin Korunması Kanunu - Tam Uyumlu</li>
-                <li><strong>GDPR (AB):</strong> Genel Veri Koruma Yönetmeliği - Tam Uyumlu</li>
-                <li><strong>COPPA (ABD):</strong> Çocukların Çevrimiçi Gizlilik Korunması Yasası - Uyumlu</li>
-                <li><strong>CCPA (Kaliforniya):</strong> Kaliforniya Tüketici Gizlilik Yasası - Uyumlu</li>
-                <li><strong>Google Play Politikaları:</strong> Tam uyumlu</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>🛠️ Teknik Detaylar</h2>
-            <p>Uygulama mimarisi gizlilik odaklı tasarlanmıştır:</p>
-            <ul>
-                <li><strong>React Native/Expo:</strong> Açık kaynak mobil framework</li>
-                <li><strong>Yerel İşlem:</strong> Tüm hesaplamalar cihazda yapılır</li>
-                <li><strong>HTTPS:</strong> Wikipedia API bağlantıları şifrelidir</li>
-                <li><strong>Açık Kaynak:</strong> Kod GitHub'da incelenebilir</li>
-            </ul>
-        </div>
-
-        <div class="contact">
-            <h2>📞 İletişim</h2>
-            <p>Gizlilik politikası hakkında sorularınız için:</p>
-            <ul>
-                <li><strong>📧 Email:</strong> <a href="mailto:wupaniyazilim@gmail.com">wupaniyazilim@gmail.com</a></li>
-                <li><strong>🌐 GitHub:</strong> <a href="https://github.com/wupaniyazilim/hayatin-guncesi" target="_blank" rel="noopener">github.com/wupaniyazilim/hayatin-guncesi</a></li>
-                <li><strong>👨‍💻 Geliştirici:</strong> Wupani Yazılım</li>
-            </ul>
-            <p><strong>Yanıt Süresi:</strong> Gizlilik ile ilgili sorularınız 48 saat içinde yanıtlanacaktır.</p>
         </div>
 
         <div class="footer">
-            <p><strong>Son Güncelleme:</strong> <span id="lastUpdate"></span></p>
-            <p><strong>Versiyon:</strong> 1.0.0</p>
-            <p><strong>Geçerlilik:</strong> Bu politika uygulamanın tüm versiyonları için geçerlidir</p>
-            <p>© 2024 Hayatın Güncesi - Wupani Yazılım. Tüm hakları saklıdır.</p>
+            <p>© 2025 Hayatın Güncesi - Life's Journal. Tüm hakları saklıdır.</p>
+            <p>Made with ❤️ using React Native & Expo</p>
         </div>
     </div>
 
     <script>
-        // Set current date
-        document.getElementById('lastUpdate').textContent = new Date().toLocaleDateString('tr-TR');
+        function showLanguage(lang) {
+            // Hide all language contents
+            const contents = document.querySelectorAll('.language-content');
+            contents.forEach(content => {
+                content.style.display = 'none';
+            });
+            
+            // Show selected language
+            document.getElementById(lang).style.display = 'block';
+            
+            // Update URL hash
+            window.location.hash = lang;
+        }
+
+        // Show language based on URL hash or default to Turkish
+        window.addEventListener('load', function() {
+            const hash = window.location.hash.substring(1);
+            const validLangs = ['tr', 'en', 'de', 'fr'];
+            const lang = validLangs.includes(hash) ? hash : 'tr';
+            showLanguage(lang);
+        });
     </script>
 </body>
 </html> 
