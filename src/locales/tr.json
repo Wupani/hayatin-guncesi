@@ -1,0 +1,165 @@
+{
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Hata",
+    "ok": "Tamam",
+    "cancel": "İptal",
+    "close": "Kapat",
+    "save": "Kaydet",
+    "search": "Ara",
+    "share": "Paylaş",
+    "back": "Geri"
+  },
+  "app": {
+    "title": "Hayatın Güncesi",
+    "subtitle": "Doğum tarihinizde neler oldu?",
+    "preparing": "Hazırlanıyor..."
+  },
+  "home": {
+    "welcome": "Hoş Geldiniz",
+    "enterBirthDate": "Doğum Tarihinizi Girin",
+    "enterBirthDateSubtitle": "Hangi gün ve ayda doğdunuz?",
+    "day": "Gün",
+    "month": "Ay",
+    "discover": "Keşfet",
+    "loadingEvents": "Tarihi olaylar yükleniyor...",
+    "loadingSubtext": "tarihine ait bilgiler getiriliyor",
+    "loadingTitle": "Tarihi Olaylar Yükleniyor",
+    "loadingWait": "Lütfen bekleyin...",
+    "loadingStep1": "Wikipedia sunucularına bağlanılıyor...",
+    "loadingStep2": "Tarihi veriler sorgulanıyor...",
+    "loadingStep3": "Olaylar kategorilere ayrılıyor...",
+    "loadingStep4": "Sonuçlar hazırlanıyor...",
+    "loadingKeepOpen": "Lütfen uygulamayı kapatmayın",
+    "loadingPatience": "Bu işlem biraz zaman alabilir",
+    "loadingRetrying": "Bağlantı yeniden deneniyor...",
+    "loadingAlmost": "Neredeyse bitti...",
+    "searchPlaceholder": "Olayları ara...",
+    "searchResults": "{{count}} sonuç bulundu ({{total}} toplam)",
+    "totalResults": "{{count}} olay gösteriliyor",
+    "emptyState": "Henüz bir arama yapmadınız.\nBaşlamak için + butonuna tıklayın.",
+    "noEventsFound": "Bu tarih için hiç olay bulunamadı.\nFarklı bir tarih deneyin.",
+    "noResultsTitle": "Sonuç Bulunamadı",
+    "noResultsMessage": "{{search}} için hiç tarihi olay bulunamadı. Lütfen farklı bir tarih deneyin.",
+    "tryAgain": "Tekrar Dene",
+    "searchAgain": "Yeni Arama Yap",
+    "invalidDate": "Lütfen geçerli bir tarih girin.",
+    "missingDate": "Lütfen doğum tarihinizi girin (gün/ay).",
+    "loadingError": "Tarihi olaylar yüklenirken bir hata oluştu."
+  },
+  "categories": {
+    "title": "Hangi kategorileri görmek istiyorsunuz?",
+    "selectMultiple": "İstediğiniz kategorileri seçin (birden fazla seçebilirsiniz)",
+    "events": "Olaylar",
+    "eventsDesc": "Tarihi olaylar ve önemli gelişmeler",
+    "births": "Doğumlar",
+    "birthsDesc": "Ünlü kişilerin doğum tarihleri",
+    "deaths": "Vefatlar",
+    "deathsDesc": "Önemli kişilerin vefat tarihleri",
+    "holidays": "Tatiller",
+    "holidaysDesc": "Özel günler ve kutlamalar",
+    "selected": "Seçilmiş",
+    "selectedDesc": "Öne çıkan özel olaylar",
+    "continue": "Devam Et",
+    "categoriesSelected": "kategori seçildi",
+    "selectAtLeast": "En az bir kategori seçin"
+  },
+  "tabs": {
+    "events": "Olaylar",
+    "births": "Doğumlar", 
+    "deaths": "Vefatlar",
+    "holidays": "Tatiller",
+    "selected": "Seçilmiş"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "language": "Dil",
+    "languageDescription": "Tercih ettiğiniz dili seçin",
+    "darkMode": "Karanlık Mod",
+    "darkModeActive": "Karanlık tema aktif",
+    "lightModeActive": "Açık tema aktif",
+    "notifications": "Bildirimler",
+    "about": "Hakkında",
+    "privacy": "Gizlilik Politikası",
+    "privacyDescription": "Veri güvenliği ve gizlilik bilgileri",
+    "rateApp": "Uygulamayı Değerlendir",
+    "rateAppDescription": "Bizi mağazada değerlendirin",
+    "version": "Sürüm",
+    "appearance": "Görünüm",
+    "privacySecurity": "Gizlilik & Güvenlik",
+    "supportFeedback": "Destek & Geri Bildirim",
+    "dataSource": "Veri Kaynağı",
+    "dataSourceDescription": "Wikipedia (Creative Commons)",
+    "ok": "Tamam",
+    "error": "Hata",
+    "storeError": "Mağaza açılırken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "intro": "\"Hayatın Güncesi\" uygulaması, doğum tarihinizle ilişkilendirilmiş tarihi olayları keşfetmenizi sağlayan bir mobil uygulamadır. Bu gizlilik politikası, uygulamamızın nasıl çalıştığını ve kişisel verilerinizin nasıl işlendiğini açıklamaktadır.",
+    "guarantees": {
+      "title": "Gizlilik Garantileri",
+      "localProcessing": "Yerel İşlem:",
+      "localProcessingDesc": "Tüm veriler cihazınızda işlenir",
+      "noThirdParty": "Üçüncü Taraf Yok:",
+      "noThirdPartyDesc": "Verileriniz üçüncü taraflarla paylaşılmaz",
+      "noAds": "Reklam Yok:",
+      "noAdsDesc": "Kişisel veri toplayan reklamlar yoktur",
+      "noAnalytics": "Analitik Yok:",
+      "noAnalyticsDesc": "Kullanım verileriniz takip edilmez"
+    },
+    "dataStorage": {
+      "title": "Veri Saklama",
+      "temporary": "Geçici Saklama:",
+      "temporaryDesc": "Doğum tarihi sadece uygulama açıkken bellekte tutulur",
+      "noPermanent": "Kalıcı Depolama Yok:",
+      "noPermanentDesc": "Hiçbir veri kalıcı olarak saklanmaz",
+      "appClose": "Uygulama Kapanınca:",
+      "appCloseDesc": "Tüm veriler otomatik olarak silinir"
+    },
+    "thirdParty": {
+      "title": "Üçüncü Taraf Hizmetleri",
+      "wikipediaApi": "Wikipedia API",
+      "creativeCommons": "Creative Commons:",
+      "creativeCommonsDesc": "Halka açık ve ücretsiz veriler kullanılır",
+      "onlyDate": "API'ye Sadece Tarih:",
+      "onlyDateDesc": "Sadece gün/ay bilgisi gönderilir",
+      "noPersonalInfo": "Kişisel Bilgi Yok:",
+      "noPersonalInfoDesc": "Kişisel bilgileriniz Wikipedia'ya gönderilmez"
+    },
+    "collectedInfo": {
+      "title": "Topladığımız Bilgiler",
+      "collected": "Toplanan Bilgiler:",
+      "birthDate": "Doğum Tarihi:",
+      "birthDateDesc": "Tarihi olayları görüntülemek için gerekli olan doğum tarihiniz",
+      "notCollected": "Toplamadığımız Bilgiler:",
+      "name": "Adınız, soyadınız veya kimlik bilgileriniz",
+      "email": "E-posta adresiniz",
+      "phone": "Telefon numaranız",
+      "location": "Konum bilgileriniz",
+      "media": "Fotoğraflarınız veya medya dosyalarınız",
+      "contacts": "Kişi listeniz"
+    },
+    "usage": {
+      "title": "Bilgilerin Kullanımı",
+      "description": "Topladığımız bilgiler yalnızca şu amaçlarla kullanılır:",
+      "fetchEvents": "Doğum tarihinize ait tarihi olayları Wikipedia API'sinden çekmek",
+      "functionality": "Uygulama işlevselliğini sağlamak",
+      "improvement": "Kullanıcı deneyimini iyileştirmek"
+    },
+    "important": {
+      "title": "ÖNEMLİ",
+      "description": "Doğum tarihiniz yalnızca cihazınızda yerel olarak saklanır ve hiçbir zaman sunucularımıza gönderilmez."
+    },
+    "footer": {
+      "lastUpdate": "Son Güncelleme:",
+      "version": "Hayatın Güncesi v2.3.0"
+    }
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français"
+  }
+} 

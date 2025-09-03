@@ -1,0 +1,165 @@
+{
+  "common": {
+    "loading": "Laden...",
+    "error": "Fehler",
+    "ok": "OK",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "save": "Speichern",
+    "search": "Suchen",
+    "share": "Teilen",
+    "back": "Zurück"
+  },
+  "app": {
+    "title": "Lebenstagebuch",
+    "subtitle": "Was geschah an Ihrem Geburtstag?",
+    "preparing": "Vorbereitung..."
+  },
+  "home": {
+    "welcome": "Willkommen",
+    "enterBirthDate": "Geben Sie Ihr Geburtsdatum ein",
+    "enterBirthDateSubtitle": "An welchem Tag und Monat wurden Sie geboren?",
+    "day": "Tag",
+    "month": "Monat",
+    "discover": "Entdecken",
+    "loadingEvents": "Lade historische Ereignisse...",
+    "loadingSubtext": "Informationen werden abgerufen für",
+    "loadingTitle": "Lade historische Ereignisse",
+    "loadingWait": "Bitte warten...",
+    "loadingStep1": "Verbindung zu Wikipedia-Servern...",
+    "loadingStep2": "Historische Daten werden abgefragt...",
+    "loadingStep3": "Ereignisse werden kategorisiert...",
+    "loadingStep4": "Ergebnisse werden vorbereitet...",
+    "loadingKeepOpen": "Bitte schließen Sie die App nicht",
+    "loadingPatience": "Dies kann einen Moment dauern",
+    "loadingRetrying": "Verbindung wird wiederholt...",
+    "loadingAlmost": "Fast fertig...",
+    "searchPlaceholder": "Ereignisse suchen...",
+    "searchResults": "{{count}} Ergebnisse gefunden ({{total}} insgesamt)",
+    "totalResults": "{{count}} Ereignisse angezeigt",
+    "emptyState": "Sie haben noch nicht gesucht.\nTippen Sie auf + um zu beginnen.",
+    "noEventsFound": "Keine Ereignisse für dieses Datum gefunden.\nVersuchen Sie ein anderes Datum.",
+    "noResultsTitle": "Keine Ergebnisse gefunden",
+    "noResultsMessage": "Keine historischen Ereignisse für {{search}} gefunden. Bitte versuchen Sie ein anderes Datum.",
+    "tryAgain": "Erneut versuchen",
+    "searchAgain": "Neue Suche",
+    "invalidDate": "Bitte geben Sie ein gültiges Datum ein.",
+    "missingDate": "Bitte geben Sie Ihr Geburtsdatum ein (Tag/Monat).",
+    "loadingError": "Fehler beim Laden der historischen Ereignisse."
+  },
+  "categories": {
+    "title": "Welche Kategorien möchten Sie sehen?",
+    "selectMultiple": "Wählen Sie die gewünschten Kategorien (mehrere möglich)",
+    "events": "Ereignisse",
+    "eventsDesc": "Historische Ereignisse und wichtige Entwicklungen",
+    "births": "Geburten",
+    "birthsDesc": "Geburtsdaten berühmter Personen",
+    "deaths": "Todesfälle",
+    "deathsDesc": "Todesdaten wichtiger Personen",
+    "holidays": "Feiertage",
+    "holidaysDesc": "Besondere Tage und Feiern",
+    "selected": "Ausgewählt",
+    "selectedDesc": "Hervorgehobene besondere Ereignisse",
+    "continue": "Weiter",
+    "categoriesSelected": "Kategorien ausgewählt",
+    "selectAtLeast": "Wählen Sie mindestens eine Kategorie"
+  },
+  "tabs": {
+    "events": "Ereignisse",
+    "births": "Geburten",
+    "deaths": "Todesfälle",
+    "holidays": "Feiertage", 
+    "selected": "Ausgewählt"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "language": "Sprache",
+    "languageDescription": "Wählen Sie Ihre bevorzugte Sprache",
+    "darkMode": "Dunkler Modus",
+    "darkModeActive": "Dunkles Design aktiv",
+    "lightModeActive": "Helles Design aktiv",
+    "notifications": "Benachrichtigungen",
+    "about": "Über",
+    "privacy": "Datenschutzrichtlinie",
+    "privacyDescription": "Datensicherheit und Datenschutzinformationen",
+    "rateApp": "App bewerten",
+    "rateAppDescription": "Bewerten Sie uns im App-Store",
+    "version": "Version",
+    "appearance": "Erscheinungsbild",
+    "privacySecurity": "Datenschutz & Sicherheit",
+    "supportFeedback": "Support & Feedback",
+    "dataSource": "Datenquelle",
+    "dataSourceDescription": "Wikipedia (Creative Commons)",
+    "ok": "OK",
+    "error": "Fehler",
+    "storeError": "Beim Öffnen des App Stores ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+  },
+  "privacy": {
+    "title": "Datenschutzrichtlinie",
+    "intro": "Die \"Lebenstagebuch\"-App ermöglicht es Ihnen, historische Ereignisse zu entdecken, die mit Ihrem Geburtsdatum verbunden sind. Diese Datenschutzrichtlinie erklärt, wie unsere App funktioniert und wie Ihre persönlichen Daten verarbeitet werden.",
+    "guarantees": {
+      "title": "Datenschutz-Garantien",
+      "localProcessing": "Lokale Verarbeitung:",
+      "localProcessingDesc": "Alle Daten werden auf Ihrem Gerät verarbeitet",
+      "noThirdParty": "Keine Dritten:",
+      "noThirdPartyDesc": "Ihre Daten werden nicht an Dritte weitergegeben",
+      "noAds": "Keine Werbung:",
+      "noAdsDesc": "Keine Werbung, die persönliche Daten sammelt",
+      "noAnalytics": "Keine Analytik:",
+      "noAnalyticsDesc": "Ihre Nutzungsdaten werden nicht verfolgt"
+    },
+    "dataStorage": {
+      "title": "Datenspeicherung",
+      "temporary": "Temporäre Speicherung:",
+      "temporaryDesc": "Geburtsdatum wird nur im Speicher gehalten, während die App geöffnet ist",
+      "noPermanent": "Keine permanente Speicherung:",
+      "noPermanentDesc": "Keine Daten werden dauerhaft gespeichert",
+      "appClose": "Beim Schließen der App:",
+      "appCloseDesc": "Alle Daten werden automatisch gelöscht"
+    },
+    "thirdParty": {
+      "title": "Drittanbieter-Dienste",
+      "wikipediaApi": "Wikipedia API",
+      "creativeCommons": "Creative Commons:",
+      "creativeCommonsDesc": "Öffentliche und kostenlose Daten werden verwendet",
+      "onlyDate": "Nur Datum an API:",
+      "onlyDateDesc": "Nur Tag/Monat-Informationen werden gesendet",
+      "noPersonalInfo": "Keine persönlichen Infos:",
+      "noPersonalInfoDesc": "Ihre persönlichen Informationen werden nicht an Wikipedia gesendet"
+    },
+    "collectedInfo": {
+      "title": "Informationen, die wir sammeln",
+      "collected": "Gesammelte Informationen:",
+      "birthDate": "Geburtsdatum:",
+      "birthDateDesc": "Ihr Geburtsdatum, das zur Anzeige historischer Ereignisse erforderlich ist",
+      "notCollected": "Informationen, die wir nicht sammeln:",
+      "name": "Ihr Name, Nachname oder Identitätsinformationen",
+      "email": "Ihre E-Mail-Adresse",
+      "phone": "Ihre Telefonnummer",
+      "location": "Ihre Standortinformationen",
+      "media": "Ihre Fotos oder Mediendateien",
+      "contacts": "Ihre Kontaktliste"
+    },
+    "usage": {
+      "title": "Verwendung von Informationen",
+      "description": "Die von uns gesammelten Informationen werden nur für folgende Zwecke verwendet:",
+      "fetchEvents": "Historische Ereignisse für Ihr Geburtsdatum von der Wikipedia API abrufen",
+      "functionality": "App-Funktionalität bereitstellen",
+      "improvement": "Benutzererfahrung verbessern"
+    },
+    "important": {
+      "title": "WICHTIG",
+      "description": "Ihr Geburtsdatum wird nur lokal auf Ihrem Gerät gespeichert und niemals an unsere Server gesendet."
+    },
+    "footer": {
+      "lastUpdate": "Zuletzt aktualisiert:",
+      "version": "Lebenstagebuch v2.3.0"
+    }
+  },
+  "languages": {
+    "tr": "Türkçe",
+    "en": "English",
+    "de": "Deutsch",
+    "fr": "Français"
+  }
+} 
